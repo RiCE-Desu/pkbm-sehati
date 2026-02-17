@@ -11,7 +11,7 @@ const beVietnamPro = Be_Vietnam_Pro({
 export const metadata: Metadata = {
   title: "PKBM Sehati",
   description: "brick by brick",
-  icons: "./logo-pkbm-sehati-bgremove.svg",
+  icons: "/logo-pkbm-sehati-bgremove.svg",
 };
 
 export default function RootLayout({
