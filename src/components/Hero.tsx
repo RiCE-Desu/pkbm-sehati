@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       id="hero"
       className="relative bg-cover bg-center h-screen flex items-end" // Align at bottom
-      style={{ backgroundImage: "url('/hero-bg.jpeg')" }}
+      style={{ backgroundImage: "url('/hero-bg.png')" }}
     >
       <div className="absolute inset-0 bg-gradient-to-t from-[#0B2D72]/100 to-transparent"></div>
       <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 text-white flex flex-col justify-end h-full w-full pb-16 z-10">
@@ -15,14 +15,12 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row md:items-center md:space-x-8 z-10">
           {/* Header */}
           <h1 className="font-header font-extrabold text-[#F6E7BC] text-2xl sm:text-5xl md:text-6xl md:max-w-md z-10">
-            PKBM Sehati
+            PKBM Sehati - <br /> Sekolah Inklusi untuk Semua
           </h1>
 
           {/* Description */}
           <p className="mt-4 md:mt-0 text-white max-w-md text-base sm:text-lg md:text-xl leading-relaxed z-10">
-            Pendidikan adab & iman untuk kehidupan.
-            <br />
-            Pengetahuan & Keterampilan untuk kesuksesan.
+            Mewujudkan pendidikan yang setara, ramah, dan penuh kepedulian bagi setiap anak tanpa terkecuali. Bersama PKBM Sehati, kami membangun masa depan dengan cinta, empati, dan kesempatan yang sama untuk berkembang.
           </p>
 
           {/* Square arrow button */}

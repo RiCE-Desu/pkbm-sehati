@@ -5,28 +5,28 @@ import Image from "next/image";
 const programs = [
   {
     id: 1,
-    img: "/program-1.jpeg",
+    img: "/program-1-img.png",
     title: "Program Pertama",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "#",
   },
   {
     id: 2,
-    img: "/program-2.jpeg",
+    img: "/program-2-img.png",
     title: "Program Kedua",
     desc: "Deskripsi program kedua yang sangat menarik dan bermanfaat.",
     link: "#",
   },
   {
     id: 3,
-    img: "/program-3.jpeg",
+    img: "/program-3-img.png",
     title: "Program Ketiga",
     desc: "Deskripsi program ketiga yang fokus pada pengembangan keterampilan.",
     link: "#",
   },
   {
     id: 4,
-    img: "/program-4.jpeg",
+    img: "/program-4-img.png",
     title: "Program Keempat",
     desc: "Deskripsi program Keempat yang fokus pada pengembangan keterampilan.",
     link: "#",
@@ -56,9 +56,7 @@ export default function Program() {
             Program <br /> Kami
           </h2>
           <p className="mt-2 text-sm md:text-base max-w-xl">
-            Ma&apos;had Daar Al-Shuffah Cilembu menyelenggarakan beragam program
-            pembelajaran dan pembinaan yang dirancang untuk meningkatkan
-            pemahaman dan kedisiplinan santri.
+            PKBM Sehati menyediakan berbagai program pendidikan yang fleksibel dan inklusif, seperti program kesetaraan, bimbingan belajar, pendampingan khusus, serta pelatihan keterampilan.
           </p>
         </div>
 

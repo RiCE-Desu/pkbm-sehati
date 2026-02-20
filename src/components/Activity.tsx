@@ -13,26 +13,26 @@ type Activity = {
 const activities: Activity[] = [
   {
     id: 1,
-    title: "Halaqoh pagi dan malam",
+    title: "Doa pagi dan pembiasaan karakter.",
     desc:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua.",
-    img: "/images/about-image.jpg",
+    img: "/activity-1.png",
     cta: "Lebih lanjut",
   },
   {
     id: 2,
-    title: "Kelas Kajian",
+    title: "Pembelajaran akademik interaktif sesuai kebutuhan.",
     desc:
       "Kegiatan kajian rutin untuk memperdalam pemahaman dengan suasana kelas yang interaktif.",
-    img: "/images/about-image.jpg",
+    img: "/activity-2.png",
     cta: "Lebih lanjut",
   },
   {
     id: 3,
-    title: "Mentoring Santri",
+    title: "Sesi pengembangan diri dan refleksi harian.",
     desc:
       "Pendampingan personal untuk membantu perkembangan karakter dan disiplin santri.",
-    img: "/images/about-image.jpg",
+    img: "/activity-3.png",
     cta: "Lebih lanjut",
   },  
 ];
@@ -189,9 +189,7 @@ export default function AktivitasKami() {
           </h2>
 
           <p className="mt-3 md:mt-1 md:max-w-xl text-sm md:text-base text-white/90">
-            Ma&apos;had Daar Al-Shuffah Cilembu menyelenggarakan beragam program
-            pembelajaran dan pembinaan yang dirancang untuk meningkatkan pemahaman
-            dan kedisiplinan santri.
+           Di PKBM Sehati, setiap hari dirancang untuk menciptakan pengalaman belajar yang bermakna dan menyenangkan.
           </p>
         </div>
 

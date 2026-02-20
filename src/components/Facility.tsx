@@ -17,7 +17,7 @@ export default function Facility() {
             SARANA PRASARANA
           </h2>
           <p className="mb-8 text-sm sm:text-base leading-relaxed">
-            Ma&apos;had Daar AL-Shuffah Cilembu menyediakan berbagai sarana dan fasilitas pendukung untuk menunjang kenyamanan dan efektivitas proses pembelajaran para santri.
+            PKBM Sehati dilengkapi dengan ruang kelas yang nyaman, perpustakaan, area bermain edukatif, serta fasilitas pendukung lainnya yang dirancang untuk menunjang proses belajar yang inklusif dan efektif.
           </p>
           <button
             aria-label="Lebih lanjut"
@@ -30,7 +30,7 @@ export default function Facility() {
         {/* Image block (make it full height and scale image) */}
         <div className="overflow-hidden h-full ">
           <Image
-            src="/f-sect.png" // Replace with your actual image path
+            src="/facility-img.png" // Replace with your actual image path
             alt="Lapangan sekolah"
             width={800}
             height={450}
