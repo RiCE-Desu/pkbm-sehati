@@ -13,25 +13,25 @@ type Activity = {
 const activities: Activity[] = [
   {
     id: 1,
-    title: "Doa pagi dan pembiasaan karakter.",
+    title: "Doa pagi",
     desc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     img: "/activity-1.png",
     cta: "Lebih lanjut",
   },
   {
     id: 2,
-    title: "Pembelajaran akademik interaktif sesuai kebutuhan.",
+    title: "Pembelajaran akademik",
     desc:
-      "Kegiatan kajian rutin untuk memperdalam pemahaman dengan suasana kelas yang interaktif.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     img: "/activity-2.png",
     cta: "Lebih lanjut",
   },
   {
     id: 3,
-    title: "Sesi pengembangan diri dan refleksi harian.",
+    title: "Sesi pengembangan diri",
     desc:
-      "Pendampingan personal untuk membantu perkembangan karakter dan disiplin santri.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     img: "/activity-3.png",
     cta: "Lebih lanjut",
   },  
@@ -133,7 +133,7 @@ function ArrowSquare({
                 }}
             />
 
-            <div className="relative bg-[#0992C2] px-6 pb-8 pt-8">
+            <div className="relative bg-[#0992C2] w-full px-6 pb-8 pt-8">
                 {/* Arrow (near top-left) */}
                 <ArrowSquare
                 direction="down"
@@ -179,7 +179,7 @@ function ArrowSquare({
 
 export default function AktivitasKami() {
   return (
-    <section className="font-['Be_Vietnam_Pro'] bg-[#0B2D72] text-white">
+    <section id="aktivitas" className="font-['Be_Vietnam_Pro'] bg-[#0B2D72] text-white">
       <div className="mx-auto max-w-7xl px-5 md:px-15 py-12 lg:pt-20 md:py-16">
         {/* Heading + blurb */}
         <div className="flex flex-col md:flex-row md:items-start md:gap-12">

@@ -3,7 +3,7 @@
 export default function Hero() {
   return (
     <section
-      id="hero"
+      id="beranda"
       className="relative bg-cover bg-center h-screen flex items-end" // Align at bottom
       style={{ backgroundImage: "url('/hero-bg.png')" }}
     >

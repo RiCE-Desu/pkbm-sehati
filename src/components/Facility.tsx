@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Facility() {
   return (
     <section
-      id="facility"
+      id="fasilitas"
       className="bg-[#0B2D72] text-white py-12 min-h-screen flex items-center"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 grid md:grid-cols-2 items-stretch w-full h-full">

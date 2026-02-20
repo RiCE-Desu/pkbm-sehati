@@ -3,7 +3,7 @@ import React from 'react'
 
 export const About = () => {
     return (
-        <div className='md:px-20 md:py-40 px-10 py-20 flex justify-between items-center bg-[#0B2D72] gap-4 md:flex-row flex-col-reverse'>
+        <div id='tentang' className='md:px-20 md:py-40 px-10 py-20 flex justify-between items-center bg-[#0B2D72] gap-4 md:flex-row flex-col-reverse'>
             <div>
                 <h2 className='text-[#F6E7BC] text-2xl sm:text-5xl md:text-6xl md:max-w-xl max-w-sm font-extrabold mb-6'>PKBM Sehati</h2>
                 <p className='mt-4 md:mt-0 text-white max-w-3xl text-base sm:text-lg md:text-xl'>
