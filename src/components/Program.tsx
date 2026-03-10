@@ -47,7 +47,7 @@ export default function Program() {
   return (
     <section
       id="program"
-      className="font-['Be_Vietnam_Pro'] bg-[#0B2D72] text-white px-4 md:px-12 lg:px-90"
+      className="font-['Be_Vietnam_Pro'] bg-[#0B2D72] text-white px-4 md:px-12 lg:px-50"
       style={{ paddingTop: "242px", paddingBottom: "242px" }}
     >
       <div className="max-w-7xl mx-auto">
