@@ -53,7 +53,7 @@ export default function Program() {
       <div className="max-w-7xl mx-auto">
         {/* Title & Description */}
         <div className="mb-15 flex flex-col gap-1 items-left">
-          <h2 className="text-[#F6E7BC] text-2xl md:text-3xl font-bold ">
+          <h2 className="text-[#F6E7BC] text-3xl md:text-4xl font-bold ">
             Program <br /> Kami
           </h2>
           <p className="mt-2 text-sm md:text-base max-w-xl">
